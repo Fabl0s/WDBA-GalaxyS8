@@ -29,7 +29,7 @@ fi
 
 ## Installing Stuff ##
 
-if [ $AOS == "8.1.0" ] && [ $AOS == "9" ]
+if [ $AOS == "7" ] && [ $AOS == "8.1.0" ] && [ $AOS == "9" ]
 	then
 		cp_ch $MODPATH/common/bootanimation/bootsamsung.qmg $MODPATH/system/media/bootsamsung.qmg
 		cp_ch $MODPATH/common/bootanimation/bootsamsungloop.qmg $MODPATH/system/media/bootsamsungloop.qmg
